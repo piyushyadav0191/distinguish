@@ -8,16 +8,7 @@ import {
 } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { setupListeners } from "@reduxjs/toolkit/query";
-import {
-  persistStore,
-  FLUSH,
-  REHYDRATE,
-  PAUSE,
-  REGISTER,
-  PERSIST,
-  PURGE,
-  persistReducer,
-} from "redux-persist";
+import { persistStore, persistReducer } from "redux-persist";
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 import globalReducer from "./state";
 import { api } from "./state/api";
@@ -64,7 +55,7 @@ export const makeStore = () => {
     middleware: (getDefaultMiddleware) =>
       getDefaultMiddleware({
         serializableCheck: {
-          ignoreActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+          ignoreActions: true,
         },
       }).concat(api.middleware),
   });
