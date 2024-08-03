@@ -6,13 +6,13 @@ export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL }),
   reducerPath: "api",
   tagTypes: ["DashboardMetrics", "Products", "Users", "Expenses"],
-  endpoints: (build) => ({
+  endpoints: (builder) => ({
     // localhost:8000/dashboard
-    getDashBoardMetrics: build.query({
+    getDashBoardMetrics: builder.query({
       query: () => "/dashboard",
       providesTags: ["DashboardMetrics"],
     }),
-    createProduct: build.mutation({
+    createProduct: builder.mutation({
       query: (newProduct) => ({
         url: "/products",
         method: "POST",

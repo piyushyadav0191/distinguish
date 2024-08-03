@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { globalAgent } from "http";
 
 export const globalSlice = createSlice({
     name: "global",
