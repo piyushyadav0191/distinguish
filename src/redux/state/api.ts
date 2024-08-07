@@ -7,18 +7,6 @@ export const api = createApi({
   reducerPath: "api",
   tagTypes: ["DashboardMetrics", "Products", "Users", "Expenses"],
   endpoints: (builder) => ({
-    // localhost:8000/dashboard
-    getDashBoardMetrics: builder.query({
-      query: () => "/dashboard",
-      providesTags: ["DashboardMetrics"],
-    }),
-    createProduct: builder.mutation({
-      query: (newProduct) => ({
-        url: "/products",
-        method: "POST",
-        body: newProduct,
-      }),
-      invalidatesTags: ["Products"],
-    }),
+  
   }),
 });
