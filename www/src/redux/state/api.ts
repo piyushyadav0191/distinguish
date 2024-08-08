@@ -7,6 +7,6 @@ export const api = createApi({
   reducerPath: "api",
   tagTypes: ["DashboardMetrics", "Products", "Users", "Expenses"],
   endpoints: (builder) => ({
-  
+    
   }),
 });

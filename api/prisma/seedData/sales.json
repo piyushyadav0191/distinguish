@@ -1,0 +1,43 @@
+[
+    {
+      "saleId": "d3ffhfrj38-dhjhds-22332",
+      "productId": "dwjh23232-23n32-232323",
+      "timestamp": "2023-11-02T19:03:00Z",
+      "quantity": 229,
+      "unitPrice": 221.1,
+      "totalAmount": 9002.11
+    },
+    {
+      "saleId": "f3ffhfrj38-dhjhds-22332",
+      "productId": "ewjh23232-23n32-232323",
+      "timestamp": "2023-11-03T12:15:30Z",
+      "quantity": 150,
+      "unitPrice": 199.99,
+      "totalAmount": 29998.5
+    },
+    {
+      "saleId": "g3ffhfrj38-dhjhds-22332",
+      "productId": "fwjh23232-23n32-232323",
+      "timestamp": "2023-11-04T09:42:15Z",
+      "quantity": 87,
+      "unitPrice": 320,
+      "totalAmount": 27840
+    },
+    {
+      "saleId": "h3ffhfrj38-dhjhds-22332",
+      "productId": "gwjh23232-23n32-232323",
+      "timestamp": "2023-11-05T16:08:45Z",
+      "quantity": 200,
+      "unitPrice": 175.5,
+      "totalAmount": 35100
+    },
+    {
+      "saleId": "i3ffhfrj38-dhjhds-22332",
+      "productId": "hwjh23232-23n32-232323",
+      "timestamp": "2023-11-06T13:33:00Z",
+      "quantity": 125,
+      "unitPrice": 250,
+      "totalAmount": 31250
+    }
+  ]
+  

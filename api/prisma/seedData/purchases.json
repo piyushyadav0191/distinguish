@@ -1,0 +1,43 @@
+[
+    {
+      "purchaseId": "d3ffhfrj38-dhjhds-22332",
+      "productId": "dwjh23232-23n32-232323",
+      "timestamp": "2023-11-02T19:03:00Z",
+      "quantity": 229.1,
+      "unitCost": 413.2,
+      "totalCost": 2982.2
+    },
+    {
+      "purchaseId": "f45g3h23-dfg34-23423",
+      "productId": "d34f3g43-234g3-23423",
+      "timestamp": "2023-12-15T12:30:00Z",
+      "quantity": 150,
+      "unitCost": 250,
+      "totalCost": 37500
+    },
+    {
+      "purchaseId": "g34h234-dfg34-23423",
+      "productId": "d34f3g43-234g3-23423",
+      "timestamp": "2023-09-21T10:15:00Z",
+      "quantity": 200,
+      "unitCost": 300,
+      "totalCost": 60000
+    },
+    {
+      "purchaseId": "h34g234-dfg34-23423",
+      "productId": "d34f3g43-234g3-23423",
+      "timestamp": "2024-01-05T14:00:00Z",
+      "quantity": 180,
+      "unitCost": 350,
+      "totalCost": 63000
+    },
+    {
+      "purchaseId": "i34g234-dfg34-23423",
+      "productId": "d34f3g43-234g3-23423",
+      "timestamp": "2023-07-18T16:30:00Z",
+      "quantity": 250,
+      "unitCost": 280,
+      "totalCost": 70000
+    }
+  ]
+  

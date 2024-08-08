@@ -1,0 +1,38 @@
+[
+    {
+      "productId": "d3ffhfrj38-dhjhds-22332",
+      "name": "Rocky Mountain Zinna",
+      "price": 465.34,
+      "rating": 2.25,
+      "stockQuantity": 123443
+    },
+    {
+      "productId": "f234jhg98-dfjhg-54321",
+      "name": "Ocean Breeze Lavender",
+      "price": 299.99,
+      "rating": 4.5,
+      "stockQuantity": 8765
+    },
+    {
+      "productId": "h345kjh76-ghjfd-65432",
+      "name": "Forest Green Fern",
+      "price": 199.00,
+      "rating": 3.8,
+      "stockQuantity": 23456
+    },
+    {
+      "productId": "j456lkj65-hjgfd-76543",
+      "name": "Desert Sun Cactus",
+      "price": 349.99,
+      "rating": 4.2,
+      "stockQuantity": 34567
+    },
+    {
+      "productId": "k567mlk54-ijhgf-87654",
+      "name": "Alpine Snow Daisy",
+      "price": 159.99,
+      "rating": 3.5,
+      "stockQuantity": 45678
+    }
+  ]
+  

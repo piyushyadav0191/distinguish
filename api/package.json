@@ -2,10 +2,19 @@
   "name": "api",
   "module": "src/server.ts",
   "type": "module",
+  "scripts": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "prisma": "^5.18.0"
   }
 }
